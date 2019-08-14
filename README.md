@@ -1,3 +1,6 @@
+## Development Status
+This skill is currently a work in progress and non-functional.
+ 
 ## Precise Trainer
 Trains a custom precise model
 
