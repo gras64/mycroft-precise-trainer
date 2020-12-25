@@ -249,7 +249,7 @@ class PreciseTrainer(MycroftSkill):
                 frames = wr.readframes(wr.getnframes() - 1)
             chop = len(frames) % self.chunk_size
             max_pred = float('-inf')
-            for i in range(10):
+            for i in range(10): 
                 engine.get_prediction(b'\0' * self.chunk_size)
             for pos in range(chop + self.chunk_size, len(frames) + 1,
                              self.chunk_size):
